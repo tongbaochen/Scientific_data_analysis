@@ -6,6 +6,9 @@
 
 - python爬虫基础知识：XPath与lxml库
   https://blog.csdn.net/flyingfishmark/article/details/51272480
+  
+- 爬虫简单架构及运行原理
+    爬虫调度端、URL管理器、网页下载器、网页解析器
 
 - scrapy框架初识：用scrapy爬豆瓣（在尝试写法）
   https://blog.csdn.net/flyingfishmark/article/details/51316159
