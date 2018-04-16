@@ -1,0 +1,8 @@
+mic最大信息系数：
+用于衡量两个变量XX和YY的线性或非线性的强度
+大致思想：如果两个变量之间存在关系，则在这二者的散点图中，可以绘制网格（grid）来划分数据进行封装关系，使用minepy实现
+          在一些网站和论坛学习使用方法，在github上看源码：https://blog.csdn.net/lijiancheng0614/article/details/50826270
+		                                                https://blog.csdn.net/qtlyx/article/details/50780400
+														                        https://github.com/minepy/minepy
+
+python基础知识：《python编程》 （人民邮电出版社）  
