@@ -1,0 +1,9 @@
+* 数据的存储与管理
+* 工作进度：
+1. 在ubuntu上使用docker创建服务器层
+2. 在docker基础上建立一个mongodb集群以及建立mysql数据库
+
+** 查询资料：
+ubuntu16.04环境中安装docker：https://blog.csdn.net/dylloveyou/article/details/78233280
+docker安装mysql以及mongodb：http://www.runoob.com/docker/docker-install-mysql.html
+docker上部署mongodb集群：https://linux.cn/article-4832-1-rel.html
