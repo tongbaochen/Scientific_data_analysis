@@ -1,8 +1,8 @@
 #  数据的存储与管理
 ##  工作进度：
-1. 在ubuntu上使用docker创建服务器层
-2. 在docker基础上建立一个mongodb集群以及建立mysql数据库
-3. 在docker基础上搭建了hadoop+hive数据仓库
+1. 在ubuntu上使用docker创建服务器层（2018/4/15）
+2. 在docker基础上建立一个mongodb集群以及建立mysql数据库（2018/4/15）
+3. 在docker基础上搭建了hadoop+hive数据仓库（2018/4/22）
 ##  数据仓库架构：
 ![图片错误](https://github.com/tongbaochen/Scientific_data_analysis/blob/master/%E9%9B%B7%E7%94%9F/data_warehouse.png)
 ##  剩余任务：
