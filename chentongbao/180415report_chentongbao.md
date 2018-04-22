@@ -4,14 +4,14 @@
 ### 工作内容： 	
   - x,抓取公开的开放数据，如联合国的统计数据，铁路公里数、国民教育程度，国民生产总值等（用于建立模型来预测幸福度），并存在mongodb中；
   - Eight data sources and the numbers of collected indicators
-        http://data.worldbank.org/indicator
-        http://www.ilo.org/ilostat
-        https://data.oecd.org/
-        http://stat.wto.org/Home/WSDBHome.aspx
-        http://www.who.int/gho/en/
-        http://fsi.fundforpeace.org/
-        http://www.itu.int/en/ITU-D/Statistics/
-        http://www.transparency.org/
+        - http://data.worldbank.org/indicator
+        - http://www.ilo.org/ilostat
+        - https://data.oecd.org/
+        - http://stat.wto.org/Home/WSDBHome.aspx
+        - http://www.who.int/gho/en/
+        - http://fsi.fundforpeace.org/
+        - http://www.itu.int/en/ITU-D/Statistics/
+        - http://www.transparency.org/
   - Y，抓取Twitter，网上的文本数据，google news等，（可调api ，需翻墙，网页形式返回数据（按时间，国家，关键字等搜索）），返回网页后对其进行解析;   （进行汇总，后期用于情感分析，分析幸福感随时间的变化等）
   - 熟悉jupyter notebook，以后用于进行数据分析的主要环境，可让用户端访问运行。
 ### 实现方式
@@ -19,11 +19,11 @@
 ### 任务清单
   - [x] 基本的爬虫工作原理
   - [x] python爬虫基础知识：XPath与lxml库
-  - [] 基本的http抓取工具，scrapy框架
-  - [] Bloom Filter: Bloom Filters by Example
-  - [] 学习分布式爬虫的概念（学会怎样维护一个所有集群机器能够有效分享的分布式队列）如：简单的实现是python-rq: https://github.com/nvie/rq
-  - [] rq和Scrapy的结合：darkrho/scrapy-redis · GitHub
-  - [] 后续处理，网页析取(grangier/python-goose · GitHub)，存储(Mongodb)
+  - [ ] 基本的http抓取工具，scrapy框架
+  - [ ] Bloom Filter: Bloom Filters by Example
+  - [ ] 学习分布式爬虫的概念（学会怎样维护一个所有集群机器能够有效分享的分布式队列）如：简单的实现是python-rq: https://github.com/nvie/rq
+  - [ ] rq和Scrapy的结合：darkrho/scrapy-redis · GitHub
+  - [ ] 后续处理，网页析取(grangier/python-goose · GitHub)，存储(Mongodb)
 ### 参考资料  
    - python爬虫基础知识：XPath与lxml库
       https://blog.csdn.net/flyingfishmark/article/details/51272480
