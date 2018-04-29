@@ -20,3 +20,11 @@
 - github上学习有关实例
 - scikit-learn学习：基于numpy和scipy的一个机器学习算法库，分为三大模块：监督学习、非监督学习和数据变换；  统一API接口（https://blog.csdn.net/qsczse943062710/article/list/2）
 https://www.imooc.com/learn/843
+
+
+
+
+## dynamic time warping （04.29）
+- 学习了两篇github上DTW模型：https://github.com/pierre-rouanet/dtw ；https://github.com/gulzi/DTWpy
+- 学会简单实用MINEv2包
+- 继续学习情感分析模型，以及抓紧学习回归模型
