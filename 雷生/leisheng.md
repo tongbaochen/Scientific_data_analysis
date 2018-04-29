@@ -1,12 +1,12 @@
 #  数据的存储与管理
 ##  工作进度：
-1. 在ubuntu上使用docker创建服务器层                    （2018/4/15）
-2. 在docker基础上建立一个mongodb集群以及建立mysql数据库  （2018/4/15）
-3. 在docker基础上搭建了hadoop+hive数据仓库             （2018/4/22）
-##  数据仓库架构：
-![图片错误](https://github.com/tongbaochen/Scientific_data_analysis/blob/master/%E9%9B%B7%E7%94%9F/data_warehouse.png)
+1. 在ubuntu上使用docker创建apache服务器层                
+2. 在docker基础上建立一个mongodb集群以及建立mysql数据库  
+3. 在docker基础上搭建了基于zeppelin的mongodb服务，并进行了简单的测试
+##  zeppelin
+    zeppelin可对数据进行分析以及可视化，并提供交互式查询。但zeppelin的使用还没有完全弄懂，找了一些测试代码还没有完全测试成功。
 ##  剩余任务：
-1. 查阅了很多资料，如果使用hadoop+hive来处理mongodb上的数据的话需要配置一些额外信息，但是网上的资料多多少少有些问题还没有配置完成
+1. 远程数据互通
 2. 创建一个通用数据查询接口
 ##  查询资料：
 1. ubuntu16.04环境中安装docker：https://blog.csdn.net/dylloveyou/article/details/78233280
@@ -17,3 +17,4 @@
 6. 使用 hadoop读写的mongodb：https://blog.csdn.net/u014595019/article/details/53065057
 7. docker安装hadoop：https://blog.csdn.net/birdben/article/details/51724126
 8. docker配置hive环境：https://blog.csdn.net/birdben/article/details/51759910
+7. docker上的zeppelin-mongodb环境安装：https://github.com/bbonnin/zeppelin-mongodb-interpreter
