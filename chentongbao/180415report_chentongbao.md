@@ -1,5 +1,5 @@
 ### 数据收集
-**version: 0422**  
+**version: 0430**  
 ### 背景
    数据库存储——以NoSQL为主，使用docker（一个容器，新量级的虚拟机），并建立mongodb集群，数据都存在mongodb的cluster中，此外，使用mysql来  存储元数据（如表的信息等)；
 ### 工作内容： 	
@@ -22,6 +22,9 @@
   - [x] python爬虫基础知识：XPath与lxml库
   - [ ] 基本的http抓取工具，scrapy框架
   - [ ] Bloom Filter: Bloom Filters by Example
+  - [online] 爬取worldbank数据
+  - [online] 爬取twitter数据
+  - [ ] 爬取google news数据
   - [ ] 学习分布式爬虫的概念（学会怎样维护一个所有集群机器能够有效分享的分布式队列）如：简单的实现是python-rq: https://github.com/nvie/rq
   - [ ] rq和Scrapy的结合：darkrho/scrapy-redis · GitHub
   - [ ] 后续处理，网页析取(grangier/python-goose · GitHub)，存储(Mongodb)
@@ -32,3 +35,6 @@
       http://www.imooc.com/learn/563
    - scrapy框架初识：用scrapy爬豆瓣 https://blog.csdn.net/flyingfishmark/article/details/51316159
    - python网络数据采集 作者: [美] 米切尔 出版社: 人民邮电出版社
+   - http://www.runoob.com/mongodb/mongodb-query.html
+   - http://social-metrics.org/downloading-tweets-by-a-list-of-users-take3/
+   
