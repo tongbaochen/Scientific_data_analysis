@@ -23,8 +23,8 @@
   - [ ] 基本的http抓取工具，scrapy框架
   - [ ] Bloom Filter: Bloom Filters by Example
   - [online] 爬取worldbank数据
-  - [online] 爬取twitter数据
-  - [ ] 爬取google news数据
+  - [x] 爬取twitter数据  20+万用户的推文，暂存本地mongodb
+  - [online] 爬取google news数据
   - [ ] 学习分布式爬虫的概念（学会怎样维护一个所有集群机器能够有效分享的分布式队列）如：简单的实现是python-rq: https://github.com/nvie/rq
   - [ ] rq和Scrapy的结合：darkrho/scrapy-redis · GitHub
   - [ ] 后续处理，网页析取(grangier/python-goose · GitHub)，存储(Mongodb)
@@ -37,4 +37,8 @@
    - python网络数据采集 作者: [美] 米切尔 出版社: 人民邮电出版社
    - http://www.runoob.com/mongodb/mongodb-query.html
    - http://social-metrics.org/downloading-tweets-by-a-list-of-users-take3/
+   - https://github.com/nikhilkumarsingh/gnewsclient
+   - https://www.cnblogs.com/zhonghuasong/p/5976003.html
+   - https://github.com/nikhilkumarsingh/gnewsclient/blob/master/CLI.md
+   
    
