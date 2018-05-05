@@ -1,5 +1,5 @@
 ### 数据收集
-**version: 0430**  
+**version: 20180505
 ### 背景
    数据库存储——以NoSQL为主，使用docker（一个容器，新量级的虚拟机），并建立mongodb集群，数据都存在mongodb的cluster中，此外，使用mysql来  存储元数据（如表的信息等)；
 ### 工作内容： 	
