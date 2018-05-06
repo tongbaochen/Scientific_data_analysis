@@ -28,3 +28,9 @@ https://www.imooc.com/learn/843
 - 学习了两篇github上DTW模型：https://github.com/pierre-rouanet/dtw ；https://github.com/gulzi/DTWpy
 - 学会简单实用MINEv2包
 - 继续学习情感分析模型，以及抓紧学习回归模型
+
+
+## 回归模型（05.06）
+- 学习了Lasso、局部线性回归、岭回归、逻辑回归四个回归模型
+- 总结前面学习的模型，加深理解
+- 继续参阅有关文献，熟悉模型框架的使用，学习pycharm的使用
