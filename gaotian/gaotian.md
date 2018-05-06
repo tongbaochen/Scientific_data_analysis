@@ -34,3 +34,11 @@ https://www.imooc.com/learn/843
 - 学习了Lasso、局部线性回归、岭回归、逻辑回归四个回归模型
 - 总结前面学习的模型，加深理解
 - 继续参阅有关文献，熟悉模型框架的使用，学习pycharm的使用
+
+## 参考资料
+- 1.https://github.com/perborgen/LogisticRegressionhttps://github.com/perborgen/LogisticRegression
+- 2.https://github.com/alexhuth/ridge
+- 3.https://github.com/d4rTh-c0d3r/locally_weighted_linear_regression
+- 4.https://github.com/satopirka/Lasso
+ 
+
