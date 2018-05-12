@@ -1,5 +1,5 @@
 ### 数据收集
-**version: 20180505
+**version: 20180512
 ### 背景
    数据库存储——以NoSQL为主，使用docker（一个容器，新量级的虚拟机），并建立mongodb集群，数据都存在mongodb的cluster中，此外，使用mysql来  存储元数据（如表的信息等)；
 ### 工作内容： 	
@@ -24,7 +24,7 @@
   - [ ] Bloom Filter: Bloom Filters by Example
   - [online] 爬取worldbank数据
   - [x] 爬取twitter数据             ## 备注：20+万用户的推文，暂存本地mongodb
-  - [online] 爬取google news数据    ## 备注： google news api已经停用，无法直接调用api,需另寻方法爬取数据
+  - [online] 爬取google news数据    ## 备注： 目前实现爬取每个国家一天的新闻量（google news api已经停用，无法直接调用api,需另寻方法爬取数据）
   - [ ] 学习分布式爬虫的概念（学会怎样维护一个所有集群机器能够有效分享的分布式队列）如：简单的实现是python-rq: https://github.com/nvie/rq
   - [ ] rq和Scrapy的结合：darkrho/scrapy-redis · GitHub
   - [ ] 后续处理，网页析取(grangier/python-goose · GitHub)，存储(Mongodb)
