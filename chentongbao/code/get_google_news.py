@@ -6,8 +6,8 @@ import pandas as pd
 from gnewsclient import gnewsclient
 import newspaper
 
-# Init
-newsapi = NewsApiClient(api_key='8c9a80656783421abb55a33f69c083c8')
+# Init  you should set your own api_key param here!
+newsapi = NewsApiClient(api_key='')
 
 # /v2/everything
 def get_aricles(keyword,sources,start_time,end_time):
