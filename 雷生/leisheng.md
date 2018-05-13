@@ -8,24 +8,24 @@
 远程数据互通
 
 ##  结构
-1. Docker
-2. └── test
-3.     ├── mysqldata  数据库文件夹
-4.     │   └── mysql
-5.     ├── docker-compose.yml docker-compose配置文件
-6.     ├── htdocs 网站文件夹
-7.     │   ├── index.html
-8.     │   └── index.php
-9.     ├── log 日志文件
-0.     │   └── nginx
-1.     ├── mysql mysql构建文件
-2.     │   └── Dockerfile
-3.     └── php php构建文件
-4.     │   └── nginx.conf
-5.     └── zeppelin 
-6.     │   └── zeppelin-mongodb-interpreter
-7.     └── mongodbdata
-8.         └── mongodb    
+  Docker;
+  └── test;
+      ├── mysqldata  数据库文件夹;
+      │   └── mysql;
+      ├── docker-compose.yml docker-compose配置文件;
+      ├── htdocs 网站文件夹
+      │   ├── index.html
+      │   └── index.php
+      ├── log 日志文件
+      │   └── nginx
+      ├── mysql mysql构建文件
+      │   └── Dockerfile
+      └── php php构建文件
+      │   └── nginx.conf
+      └── zeppelin 
+      │   └── zeppelin-mongodb-interpreter
+      └── mongodbdata
+          └── mongodb    
 
 ##  查询资料：
 1. ubuntu16.04环境中安装docker：https://blog.csdn.net/dylloveyou/article/details/78233280
@@ -36,4 +36,4 @@
 6. 使用 hadoop读写的mongodb：https://blog.csdn.net/u014595019/article/details/53065057
 7. docker安装hadoop：https://blog.csdn.net/birdben/article/details/51724126
 8. docker配置hive环境：https://blog.csdn.net/birdben/article/details/51759910
-7. docker上的zeppelin-mongodb环境安装：https://github.com/bbonnin/zeppelin-mongodb-interpreter
+9. docker上的zeppelin-mongodb环境安装：https://github.com/bbonnin/zeppelin-mongodb-interpreter
