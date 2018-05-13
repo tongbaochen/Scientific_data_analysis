@@ -186,10 +186,13 @@ if __name__ == "__main__":
             print("No parameters supplied. Exiting.")
             sys.exit(0)
 '''
-        consumer_key = "tpmyBveiaUp1KJJ2f5Wu7LgEM"
-        consumer_secret = "6hFr1pcsRdjpniaB1aGBb82K8f01lToMKPulP0MJ6g4Tjj0SKZ"
-        access_token = "990257786213691397-fMS8eQZ9kyiEMWH7vRgMOLUrhpYwjDQ"
-        access_token_secret = "8Tl3HarB8fF6WxwLkMFuecwfAYgOV3yFfJjO3fJhe6saL"
+        '''
+        you should set your own param here.# consumer_key consumer_secret access_token  access_token_secret#
+        '''
+        consumer_key = ""
+        consumer_secret = ""
+        access_token = ""
+        access_token_secret = ""
 
         auth = OAuthHandler(consumer_key, consumer_secret)
         auth.set_access_token(access_token, access_token_secret)
