@@ -1,0 +1,48 @@
+Afghanistan
+Albania
+Algeria
+Andorra
+Angola
+Antigua and Barbuda
+Argentina
+Armenia
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bhutan
+Bolivia
+Bosnia and Herzegovina
+Botswana
+Brazil
+Brunei
+Bulgaria
+Burkina Faso
+Burma (Myanmar)
+Burundi
+Cambodia
+Cameroon
+Canada
+Cape Verde
+Central African Republic
+Chad ---¡¥Ω”Œ Ã‚---
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: /news?output=atom&ned=us&q=Chile&hl=en (Caused by ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response',)))
+
+https://www.jwlchina.cn/2016/10/29/%E5%85%B3%E4%BA%8Epython%E7%88%AC%E8%99%AB%E7%9A%84%E6%B7%B1%E5%9D%91%EF%BC%9Arequests%E6%8A%9B%E5%87%BA%E5%BC%82%E5%B8%B8Max%20retries%20exceeded%20with%20url/
+
+
+Traceback (most recent call last):
+  File "D:\TOOL\Anaconda3-5.0.1-Windows-x86_64\lib\site-packages\requests\packages\urllib3\contrib\pyopenssl.py", line 438, in wrap_socket
+    cnx.do_handshake()
+  File "D:\TOOL\Anaconda3-5.0.1-Windows-x86_64\lib\site-packages\OpenSSL\SSL.py", line 1716, in do_handshake
+    self._raise_ssl_error(self._ssl, result)
+  File "D:\TOOL\Anaconda3-5.0.1-Windows-x86_64\lib\site-packages\OpenSSL\SSL.py", line 1449, in _raise_ssl_error
+    raise SysCallError(-1, "Unexpected EOF")
+OpenSSL.SSL.SysCallError: (-1, 'Unexpected EOF')
