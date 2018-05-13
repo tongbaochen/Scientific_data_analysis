@@ -3,10 +3,29 @@
 1. 在ubuntu上使用docker创建apache服务器层                
 2. 在docker基础上建立一个mongodb集群以及建立mysql数据库  
 3. 在docker基础上搭建了基于zeppelin的mongodb服务，并进行了简单的测试
-4. 创建一个通用数据查询接口
 
 ##  剩余任务：
 远程数据互通
+
+##  结构
+Docker
+└── test
+    ├── mysqldata  数据库文件夹
+    │   └── mysql
+    ├── docker-compose.yml docker-compose配置文件
+    ├── htdocs 网站文件夹
+    │   ├── index.html
+    │   └── index.php
+    ├── log 日志文件
+    │   └── nginx
+    ├── mysql mysql构建文件
+    │   └── Dockerfile
+    └── php php构建文件
+    │   └── nginx.conf
+    └── zeppelin 
+    │   └── zeppelin-mongodb-interpreter
+    └── mongodbdata
+         └── mongodb    
 
 ##  查询资料：
 1. ubuntu16.04环境中安装docker：https://blog.csdn.net/dylloveyou/article/details/78233280
