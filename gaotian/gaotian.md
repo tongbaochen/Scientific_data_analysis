@@ -19,7 +19,7 @@
 - 其中包括NLTK python自然语言处理包，scikit-learn包
 - github上学习有关实例
 - scikit-learn学习：基于numpy和scipy的一个机器学习算法库，分为三大模块：监督学习、非监督学习和数据变换；  统一API接口（https://blog.csdn.net/qsczse943062710/article/list/2）
-https://www.imooc.com/learn/843
+https://www.imooc.com/learn/843   https://github.com/cjhutto/vaderSentiment
 
 
 
