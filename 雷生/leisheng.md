@@ -8,24 +8,24 @@
 远程数据互通
 
 ##  结构
-Docker
-└── test
-    ├── mysqldata  数据库文件夹
-    │   └── mysql
-    ├── docker-compose.yml docker-compose配置文件
-    ├── htdocs 网站文件夹
-    │   ├── index.html
-    │   └── index.php
-    ├── log 日志文件
-    │   └── nginx
-    ├── mysql mysql构建文件
-    │   └── Dockerfile
-    └── php php构建文件
-    │   └── nginx.conf
-    └── zeppelin 
-    │   └── zeppelin-mongodb-interpreter
-    └── mongodbdata
-         └── mongodb    
+1. Docker
+2. └── test
+3.     ├── mysqldata  数据库文件夹
+4.     │   └── mysql
+5.     ├── docker-compose.yml docker-compose配置文件
+6.     ├── htdocs 网站文件夹
+7.     │   ├── index.html
+8.     │   └── index.php
+9.     ├── log 日志文件
+0.     │   └── nginx
+1.     ├── mysql mysql构建文件
+2.     │   └── Dockerfile
+3.     └── php php构建文件
+4.     │   └── nginx.conf
+5.     └── zeppelin 
+6.     │   └── zeppelin-mongodb-interpreter
+7.     └── mongodbdata
+8.         └── mongodb    
 
 ##  查询资料：
 1. ubuntu16.04环境中安装docker：https://blog.csdn.net/dylloveyou/article/details/78233280
