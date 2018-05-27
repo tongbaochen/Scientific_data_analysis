@@ -4,8 +4,8 @@
 2. 在docker基础上建立一个mongodb集群以及建立mysql数据库  
 3. 在docker基础上搭建了基于zeppelin的mongodb服务，并进行了简单的测试
 
-##  剩余任务：
-远程数据互通
+##  剩余任务：
+虚拟机还无法登陆上去
 
 ##  结构
   Docker;
@@ -26,6 +26,8 @@
       │   └── zeppelin-mongodb-interpreter
       └── mongodbdata
           └── mongodb    
+##  镜像地址：
+https://dev.aliyun.com/detail.html?spm=5176.1972343.2.6.78405aaahMxNr8&repoId=165247
 
 ##  查询资料：
 1. ubuntu16.04环境中安装docker：https://blog.csdn.net/dylloveyou/article/details/78233280
