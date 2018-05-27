@@ -1,5 +1,5 @@
 ### 数据收集
-**version: 20180513
+**version: 20180527
 ### 背景
    数据库存储——以NoSQL为主，使用docker（一个容器，新量级的虚拟机），并建立mongodb集群，数据都存在mongodb的cluster中，此外，使用mysql来  存储元数据（如表的信息等)；
 ### 工作内容： 	
@@ -22,9 +22,17 @@
   - [x] python爬虫基础知识：XPath与lxml库
   - [ ] 基本的http抓取工具，scrapy框架
   - [ ] Bloom Filter: Bloom Filters by Example
-  - [online] 爬取worldbank数据   #获取excel表
+  - [x] 爬取worldbank数据   #获取excel表
   - [x] 爬取twitter数据             ## 备注：20+万用户的推文，暂存本地mongodb
-  - [oneline] 爬取google news数据    ## 备注： 目前实现爬取每个国家2018-02-13/5-12的所有新闻的程序，程序正在运行中，为结束，速度有点慢
+  - [x] 爬取google news数据    ## 备注： 已爬取每个国家2018-02-13/5-20的所有新闻
+  - [ ] 公开数据集
+        - http://www.ilo.org/ilostat
+        - https://data.oecd.org/
+        - http://stat.wto.org/Home/WSDBHome.aspx
+        - http://www.who.int/gho/en/
+        - http://fsi.fundforpeace.org/
+        - http://www.itu.int/en/ITU-D/Statistics/
+        - http://www.transparency.org/
   - [ ] 学习分布式爬虫的概念（学会怎样维护一个所有集群机器能够有效分享的分布式队列）如：简单的实现是python-rq: https://github.com/nvie/rq
   - [ ] rq和Scrapy的结合：darkrho/scrapy-redis · GitHub
   - [ ] 后续处理，网页析取(grangier/python-goose · GitHub)，存储(Mongodb)
