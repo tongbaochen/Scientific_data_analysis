@@ -26,13 +26,13 @@
   - [x] 爬取twitter数据             ## 备注：20+万用户的推文，暂存本地mongodb
   - [x] 爬取google news数据    ## 备注： 已爬取每个国家2018-02-13/5-20的所有新闻
   - [ ] 公开数据集
-      - http://www.ilo.org/ilostat
-      - https://data.oecd.org/
-      - http://stat.wto.org/Home/WSDBHome.aspx
-      - http://www.who.int/gho/en/
-      - http://fsi.fundforpeace.org/
-      - http://www.itu.int/en/ITU-D/Statistics/
-      - http://www.transparency.org/
+      - [ ] http://www.ilo.org/ilostat
+      - [ ] https://data.oecd.org/
+      - [ ] http://stat.wto.org/Home/WSDBHome.aspx
+      - [ ] http://www.who.int/gho/en/
+      - [x] http://fsi.fundforpeace.org/
+      - [ ] http://www.itu.int/en/ITU-D/Statistics/
+      - [ ] http://www.transparency.org/
   - [ ] 学习分布式爬虫的概念（学会怎样维护一个所有集群机器能够有效分享的分布式队列）如：简单的实现是python-rq: https://github.com/nvie/rq
   - [ ] rq和Scrapy的结合：darkrho/scrapy-redis · GitHub
   - [ ] 后续处理，网页析取(grangier/python-goose · GitHub)，存储(Mongodb)
