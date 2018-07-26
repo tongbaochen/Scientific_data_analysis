@@ -8,31 +8,27 @@
   - 熟悉jupyter notebook，以后用于进行数据分析的主要环境，可让用户端访问运行。
 ### 实现方式
    使用scrapy,redis,mongodb,graphite实现的一个分布式网络爬虫,底层存储mongodb集群,分布式使用redis实现，从目标网址中爬取响应的数据存储到mongodb中。github上开源项目：https://github.com/gnemoug/distribute_crawler    
-   - Eight data sources and the numbers of collected indicators
+   - collected indicators
         - http://data.worldbank.org/indicator
-        - http://www.ilo.org/ilostat
         - https://data.oecd.org/
-        - http://stat.wto.org/Home/WSDBHome.aspx
         - http://www.who.int/gho/en/
         - http://fsi.fundforpeace.org/
         - http://www.itu.int/en/ITU-D/Statistics/
-        - http://www.transparency.org/
+        - http://www.ilo.org/ilostat
 ### 任务清单
   - [x] 基本的爬虫工作原理
   - [x] python爬虫基础知识：XPath与lxml库
   - [ ] 基本的http抓取工具，scrapy框架
   - [ ] Bloom Filter: Bloom Filters by Example
-  - [x] 爬取worldbank数据   #获取excel表
   - [x] 爬取twitter数据             ## 备注：20+万用户的推文，暂存本地mongodb
   - [x] 爬取google news数据    ## 备注： 已爬取每个国家2018-02-13/5-20的所有新闻
   - [ ] 公开数据集
-      - [ ] http://www.ilo.org/ilostat
-      - [ ] https://data.oecd.org/
-      - [ ] http://stat.wto.org/Home/WSDBHome.aspx
-      - [ ] http://www.who.int/gho/en/
+      - [x] http://data.worldbank.org/indicator
+      - [x] https://data.oecd.org/
+      - [x] http://www.who.int/gho/en/
       - [x] http://fsi.fundforpeace.org/
-      - [ ] http://www.itu.int/en/ITU-D/Statistics/
-      - [ ] http://www.transparency.org/
+      - [x] http://www.itu.int/en/ITU-D/Statistics/
+      - [ ] http://www.ilo.org/ilostat
   - [ ] 学习分布式爬虫的概念（学会怎样维护一个所有集群机器能够有效分享的分布式队列）如：简单的实现是python-rq: https://github.com/nvie/rq
   - [ ] rq和Scrapy的结合：darkrho/scrapy-redis · GitHub
   - [ ] 后续处理，网页析取(grangier/python-goose · GitHub)，存储(Mongodb)
