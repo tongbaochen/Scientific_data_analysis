@@ -1,5 +1,5 @@
 ### 数据收集
-**version: 20180527
+**version: 20180727
 ### 背景
    数据库存储——以NoSQL为主，使用docker（一个容器，新量级的虚拟机），并建立mongodb集群，数据都存在mongodb的cluster中，此外，使用mysql来  存储元数据（如表的信息等)；
 ### 工作内容： 	
@@ -14,7 +14,6 @@
         - http://www.who.int/gho/en/
         - http://fsi.fundforpeace.org/
         - http://www.itu.int/en/ITU-D/Statistics/
-        - http://www.ilo.org/ilostat
 ### 任务清单
   - [x] 基本的爬虫工作原理
   - [x] python爬虫基础知识：XPath与lxml库
@@ -28,7 +27,6 @@
       - [x] http://www.who.int/gho/en/
       - [x] http://fsi.fundforpeace.org/
       - [x] http://www.itu.int/en/ITU-D/Statistics/
-      - [ ] http://www.ilo.org/ilostat
   - [ ] 学习分布式爬虫的概念（学会怎样维护一个所有集群机器能够有效分享的分布式队列）如：简单的实现是python-rq: https://github.com/nvie/rq
   - [ ] rq和Scrapy的结合：darkrho/scrapy-redis · GitHub
   - [ ] 后续处理，网页析取(grangier/python-goose · GitHub)，存储(Mongodb)
